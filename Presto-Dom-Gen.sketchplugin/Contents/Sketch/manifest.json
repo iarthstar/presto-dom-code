@@ -1,0 +1,25 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Generate Code",
+      "identifier": "presto-dom.generate-code",
+      "shortcut": "command shift p",
+      "script": "generate.js"
+    }
+  ],
+  "menu": {
+    "title": "Presto-Dom-Gen",
+    "items": [
+      "presto-dom.generate-code"
+    ]
+  },
+  "version": "2.2.0",
+  "description": "Generates Presto Dom Code from Sketch Layers.",
+  "name": "Presto-Dom-Gen",
+  "identifier": "Presto-Dom-Gen",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com/iarthstar/presto-dom-code/master/.appcast.xml"
+}
